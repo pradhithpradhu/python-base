@@ -1230,3 +1230,25 @@
 #         count[char] = 1
 
 # print("Character occurrences:",count) 
+
+
+# sentence = input("Enter a sentence: ")
+
+# words = sentence.split()
+# count = {}
+
+# for word in words:
+#     if word in count:
+#         count[word] = count[word] + 1
+#     else:
+#         count[word] = 1
+
+# print("Word occurrences:")
+# print(count)
+
+
+# a='   hello world'
+# b=a.strip()
+# print(b)
+
+
