@@ -1219,14 +1219,14 @@
 # print(smallest)
 
 
-text = input("Enter a string: ")
+# text = input("Enter a string: ")
 
-count = {}
+# count = {}
 
-for char in text:
-    if char in count:
-        count[char] = count[char] + 1
-    else:
-        count[char] = 1
+# for char in text:
+#     if char in count:
+#         count[char] = count[char] + 1
+#     else:
+#         count[char] = 1
 
-print("Character occurrences:",count) 
+# print("Character occurrences:",count) 
