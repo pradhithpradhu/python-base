@@ -1252,3 +1252,69 @@
 # print(b)
 
 
+# data = {
+#     "a": 10,
+#     "b": 20,
+#     "c": 10,
+#     "d": 30,
+#     "e": 20
+# }
+
+# duplicate = []
+
+# for i in data.values():
+#     if i not in duplicate:  
+#         if list(data.values()).count(i) > 1:
+#             duplicate.append(i)
+
+# print("Duplicate values:", duplicate)
+
+
+# data = {"a": 10,"b": 20,"c": 10,"d": 30,"e": 20}
+# data1={"apple":"80","orange":"90","grapes":"100","e":30}
+# c=data | data1
+# print(c)
+
+
+# data = {"a": 10,"b": 20,"c": 10,"d": 30,"e": 20}
+# data1={"apple":"80","orange":"90","grapes":"100","e":30}
+# data.update(data1)
+# print(data)
+
+
+# list1 = ["name", "place", "job"]
+# list2 = ["arjun", "kannur", "software developer"]
+
+# dict1 = {}
+
+# for i in range(len(list1)):
+#     dict1[list1[i]] = list2[i]
+
+# print(dict1) 
+
+
+# data = {"a": 10,"b": 20,"c": 10,"d": 30,"e": 20}
+# key="c"
+# for i in list(data):
+#     if i==key:
+#         data.pop(i)
+# print(data)
+
+
+# dict={}
+# for i in range(1,11):
+#     dict[i]=i*i
+# print(dict)
+
+
+
+# data = {"a": 20, "b": 60, "c": 80, "d": 40, "e": 100}
+# data1 = {}
+
+# for i in data:
+#     if data[i] > 50:
+#         data1[i] = data[i]
+# print(data1)
+
+
+
