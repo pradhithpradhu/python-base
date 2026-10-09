@@ -1318,3 +1318,55 @@
 
 
 
+# data={
+#     "student1":{"name":"sachin","age":"40","place":"tly"},
+#     "student2":{"name":"virat","age":"35","place":"knr"},
+#     "student3":{"name":"gill","age":"30","place":"kzd"}
+# }
+# print(data["student1"])
+
+
+# data={"sachin":80,"virat":90,"gill":70}
+# highest=0
+# student=""
+# for i in data:
+#     if data[i]>highest:
+#         highest=data[i]
+#         student=i
+# print("student:",student)
+# print("highest:",highest)
+
+
+
+# data={"shreyas":80,"virat":90,"gill":70,"rahul":85,"rohit":75}
+# total=0
+# for i in data:
+#     if data[i]>0:
+#         total=total+data[i]
+# print("total=",total)
+
+
+# data={"shreyas":80,"virat":90,"gill":70,"rahul":85,"rohit":75}
+# average=0
+# total=0
+# for i in data:
+#     if data[i]>0:
+#         total=total+data[i]
+# average=total/(len(data))
+# print(average)
+
+
+
+# data = {"a": 10, "b": 20, "c": 30}
+# data1 = {}
+# for i in data:
+#     data1[data[i]] = i
+# print(data1)
+
+
+
+# data = {"shreyas": 80, "virat": 90, "gill": 70, "rahul": 85}
+# data1 = {}
+# for i in sorted(data, key=data.get):
+#     data1[i] = data[i]
+# print(data1)
