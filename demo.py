@@ -1370,3 +1370,57 @@
 # for i in sorted(data, key=data.get):
 #     data1[i] = data[i]
 # print(data1)
+
+# def name():
+#     print("hloooo")
+# name()
+
+# def name():
+#     print("welcome pradhith")
+# name()
+
+# def greet(name):
+#     print("hello", name)
+# greet("arjun")
+
+
+# def sum(a,b):
+#     print(a+b)
+# sum(2,3)
+
+# def square(number):
+#     print(number*number)
+# square(5)
+
+
+# def number(a):
+#     if a%2==0:
+#         print('even')
+#     else:
+#         print('odd')
+# number(3)
+
+
+# def number(a,b):
+#     return a+b
+# c=number(2,3)
+# print(c)
+
+
+# def greet(name):
+#     print("hello",name)
+# greet('shahrukh khan')
+
+
+# def number(a,b):
+#     return a+b
+# print(number(2,3))
+
+
+# def largest(a,b):
+#     if a>b:
+#         return a
+#     else:
+#         return b
+# print(largest(6,8))
+
