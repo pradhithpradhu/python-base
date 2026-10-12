@@ -1424,3 +1424,141 @@
 #         return b
 # print(largest(6,8))
 
+
+# def marks(a):
+#     if a>=40:
+#         return 'pass'
+#     else:
+#         return 'fail'
+# c=int(input("enter a number:"))
+# print(marks(c)) 
+
+
+# def password(a):
+#     if len(a)==8:
+#         return 'true'
+#     else:
+#         return 'false'
+# a=input("enter the password:")
+# print(password(a))
+
+
+# def username(name):
+#     for i in name:
+#         print (i)
+# name=['apple','orange']
+# username(name)
+
+
+# def numbers(num):
+#     count=0
+#     for i in num:
+#         if i%2==0:
+#             count=count+1
+#     print(count)
+# num=[2,3,4,5,6,7,8,9]
+# numbers(num)
+
+
+# def factorial(num):
+#     fact=1
+#     for i in range(1,num+1):
+#         fact=fact*i
+#     print(fact)
+# num=int(input("enter a number:"))
+# factorial(num)
+
+
+# def numbers(num):
+#         if num>0:
+#             print('positive')
+#         elif num==0:
+#             print('zero')
+#         else:
+#             print('negative')
+# a=int(input("enter the number:"))
+# numbers(a)
+
+
+# def login_attempts(count):
+#     count=0
+#     username='acadeno'
+#     password=1234
+#     for i in count:
+#         if username==name and password==passo:
+#             print('normal')
+#             count=count+1
+#             if count>=5:
+#                 print('warning')
+# name=input("enter the username:")
+# passo=input("enter the password:")
+# login_attempts() 
+
+
+
+# def login():
+#     username = "admin"
+#     password = "1234"
+#     count = 0
+
+#     while count < 5:
+#         a = input("Enter username: ")
+#         b = input("Enter password: ")
+#         if a == username and b == password:
+#             print("Login successful")
+#             break
+#         else:
+#             count += 1
+#             print("Invalid username or password")
+            
+#             if count > 5:
+#                 print("Warning: Too many failed attempts!")
+#                 break
+
+# login()
+
+
+# def check_user(username, users):
+#     if username in users:
+#         return "Username exists"
+#     else:
+#         return "Username does not exist"
+
+# users = ["admin", "arjun", "virat", "dhoni"]
+
+# name = input("Enter username: ")
+
+# print(check_user(name, users))
+
+
+
+# def count_failed(logins):
+#     count = 0
+
+#     for i in logins:
+#         if i == "Failed":
+#             count = count + 1
+
+#     return count
+
+# results = ["Success", "Failed", "Failed", "Success", "Failed"]
+
+# print("Failed login attempts:", count_failed(results))
+
+
+
+# def analyze_user(user):
+#     if user["status"] == "inactive" or user["failed_attempts"] >= 5:
+#         return "Warning"
+#     else:
+#         return "Normal"
+
+# user = {
+#     "username": "admin",
+#     "status": "active",
+#     "failed_attempts":5
+# }
+
+# print(analyze_user(user))
+
+
