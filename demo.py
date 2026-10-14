@@ -1562,3 +1562,57 @@
 # print(analyze_user(user))
 
 
+
+# a = open("data.txt", "r")
+# data = a.read()
+# print(data)
+# a.close()
+
+
+# a = open("data.txt", "w")
+# a.write('hello world')
+# a.close()
+
+
+
+# a=open("data.txt","r+")
+# a.write("i love the world")
+# b=a.read()
+# print(b)
+# a.close()
+
+# a=open("data.txt","a")
+# a.write(" good morning everyone")
+# a.close()
+
+
+# with open("data.txt","r") as a:
+#     data=a.read()
+#     print(data)
+
+
+# with open("data.txt","r") as a:
+#     b=a.read(10)
+#     print(b)
+
+
+# with open("data.txt", "r") as f:
+#     a=f.readline()
+#     print(f)
+
+
+# with open("data.txt","r") as a:
+#     print(a.readline())
+#     print(a.readline())
+
+
+# with open("data.txt","r") as a:
+#     b=a.readlines()
+#     print(b)
+
+
+# with open("data.txt","r")as a:
+#     data=a.read()
+# with open("source.txt","w")as b:
+#     b.write(data)
+
