@@ -1616,3 +1616,85 @@
 # with open("source.txt","w")as b:
 #     b.write(data)
 
+
+# with open("source.txt","a") as student:
+#     student.write("arjun\n")
+#     student.write("20\n")
+#     student.write("full stack developer")
+
+
+# with open ("source.txt","r") as student:
+#     data=student.read()
+#     print(data)
+
+
+# with open("source.txt","r") as student:
+#     data=student.readline()
+#     print(data)
+
+
+# with open("source.txt","r") as student:
+#     data=student.readlines()
+#     print(data)
+
+
+# with open("source.txt","r") as file:
+#     for line in file:
+#        print(line)
+
+
+# with open("source.txt","r") as a:
+#    data = a.read()
+#    count = len(data)
+#    print("Number of characters:", count)
+  
+
+# with open("source.txt","r") as a:
+#    count=0
+#    for line in a:
+#       count=count+1
+#    print("Number of lines:", count)
+
+
+# name=["suryanarayana varma\n","eesa moosakutyy haaji\n","sagar alias jacky\n","sikkandar singh\n","prathap reddy\n"]
+# with open("data.txt","w") as f:
+#     f.writelines(name)
+
+
+# try:
+#     file = open("data.txt", "x")
+#     print("File created successfully")
+#     file.close()
+
+# except FileExistsError:
+#     print("File already exists")
+
+
+# file = open("demo.txt", "w")
+# file.write("Hello Python")
+# file.close()
+# print("Data written successfully")
+
+
+# with open("source.txt","a") as file:
+#     file.write("prabhakaran")
+
+
+
+# file = open("demo.txt", "w")
+
+# file.write("Python is easy to learn.\n")
+# file.write("Python is a programming language.\n")
+# file.write("I am learning file handling.\n")
+
+# file.close()
+
+# file = open("demo.txt", "a")
+
+# file.write("I enjoy learning Python.\n")
+# file.write("File handling is useful.\n")
+
+# file.close()
+
+# print("Sentences appended successfully")
+

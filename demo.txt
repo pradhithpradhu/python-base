@@ -1,0 +1,5 @@
+Python is easy to learn.
+Python is a programming language.
+I am learning file handling.
+I enjoy learning Python.
+File handling is useful.
