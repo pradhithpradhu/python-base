@@ -1,0 +1,4 @@
+Security Log Analysis Report
+----------------------------
+Successful logins: 2
+Failed logins: 4

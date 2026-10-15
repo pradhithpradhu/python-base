@@ -1698,3 +1698,98 @@
 
 # print("Sentences appended successfully")
 
+
+# with open("security.log", "w") as file:
+#     file.write("admin LOGIN_SUCCESS\n")
+#     file.write("arun LOGIN_FAILED\n")
+#     file.write("john LOGIN_SUCCESS\n")
+#     file.write("arun LOGIN_FAILED\n")
+#     file.write("anu LOGIN_FAILED\n")
+# print("Log file created successfully")
+
+
+# with open("security.log","r") as file:
+#     count=0
+#     for line in file:
+#         if "LOGIN_FAILED" in line:
+#             count=count+1
+#     print("number of failed logins:",count)
+
+
+# with open("security.log","r") as file:
+#     count=0
+#     for line in file:
+#         if "LOGIN_SUCCESS" in line:
+#             print(line)
+
+
+
+# count = 0
+# with open("security.log", "r") as file:
+#     for line in file:
+#         if "LOGIN_FAILED" in line:
+#             count = count + 1
+
+# if count > 5:
+#     print("Warning: Too many failed login attempts!")
+
+
+
+# count = 0
+
+# with open("security.log", "r") as file:
+#     for line in file:
+#         if "LOGIN_FAILED" in line:
+#             count = count + 1
+
+# with open("security_report.txt", "w") as file:
+#     file.write("Security Analysis Report\n")
+#     file.write("Total failed login events: " + str(count) + "\n")
+
+#     if count > 5:
+#         file.write("Warning: Too many failed login attempts!\n")
+#     else:
+#         file.write("No warning. Failed login events are within the limit.\n")
+
+# print("Report saved successfully!")
+
+
+# with open("security.log","r") as file:
+#     for line in file:
+#         if "ERROR" in line:
+#             print(line)
+
+
+# with open("security.log","a") as file:
+#     file.write("\nLOGIN_FAILED kiran")
+# print("new security event added successfully")
+
+
+
+# try:
+#     with open("security.log", "r") as file:
+#         for line in file:
+#             print(line.strip())
+
+# except FileNotFoundError:
+#     print("Warning: Security log file not found!")
+
+
+# with open("security.log","r")as file:
+#     count_success=0
+#     count_failed=0
+#     for line in file:
+#         if "LOGIN_FAILED" in line:
+#             count_failed=count_failed+1
+#         elif "LOGIN_SUCCESS" in line:
+#             count_success=count_success+1
+
+# with open("security_report.txt", "w") as file:
+#     file.write("Security Log Analysis Report\n")
+#     file.write("----------------------------\n")
+#     file.write("Successful logins: " + str(count_success) + "\n")
+#     file.write("Failed logins: " + str(count_failed) + "\n")
+
+# print("Security report created successfully!")
+
+
