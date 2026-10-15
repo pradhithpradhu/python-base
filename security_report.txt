@@ -1,4 +1,3 @@
-Security Log Analysis Report
-----------------------------
-Successful logins: 2
-Failed logins: 4
+Security Report
+LOGIN_FAILED: 3 failed logins
+kiran: 1 failed logins

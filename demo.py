@@ -1793,3 +1793,97 @@
 # print("Security report created successfully!")
 
 
+# try:
+#     with open("security.log", "r") as file:
+#         for line in file:
+#             print(line.strip())
+
+# except FileNotFoundError:
+#     print("Warning: security.log file not found!")
+
+
+# success = 0
+# failed = 0
+
+# try:
+#     with open("security.log", "r") as file:
+#         for line in file:
+#             if "LOGIN_SUCCESS" in line:
+#                 success = success + 1
+#             elif "LOGIN_FAILED" in line:
+#                 failed = failed + 1
+
+#     print("Successful logins:", success)
+#     print("Failed logins:", failed)
+
+# except FileNotFoundError:
+#     print("Warning: security.log file not found!")
+
+
+# failed = {}
+# try:
+#     with open("security.log", "r") as file:
+#         for line in file:
+#             if "LOGIN_FAILED" in line:
+#                 username = line.split()[1]
+
+#                 if username in failed:
+#                     failed[username] += 1
+#                 else:
+#                     failed[username] = 1
+
+#     print(failed)
+
+# except FileNotFoundError:
+#     print("Log file not found!")
+
+
+# failed = {}
+
+# try:
+#     with open("security.log", "r") as file:
+#         for line in file:
+#             if "LOGIN_FAILED" in line:
+#                 username = line.split()[1]
+
+#                 if username in failed:
+#                     failed[username] += 1
+#                 else:
+#                     failed[username] = 1
+
+#     for username in failed:
+#         if failed[username] > 5:
+#             print("Warning:", username, "has more than 5 failed login attempts!")
+
+# except FileNotFoundError:
+#     print("Log file not found!")
+
+
+
+# failed = {}
+
+# try:
+#     with open("security.log", "r") as file:
+#         for line in file:
+#             if "LOGIN_FAILED" in line:
+#                 username = line.split()[1]
+
+#                 if username in failed:
+#                     failed[username] += 1
+#                 else:
+#                     failed[username] = 1
+
+#     with open("security_report.txt", "w") as file:
+#         file.write("Security Report\n")
+
+#         for username in failed:
+#             file.write(username + ": " + str(failed[username]) + " failed logins\n")
+
+#             if failed[username] > 5:
+#                 file.write("Warning: More than 5 failed attempts!\n")
+
+#     print("Report saved successfully!")
+
+# except FileNotFoundError:
+#     print("Log file not found!")
+  
